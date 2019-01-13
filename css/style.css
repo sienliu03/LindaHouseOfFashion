@@ -1,0 +1,398 @@
+
+/*******************************************************************************
+                Custom Color Scheme: link to
+
+** Primary Color 1: #hex rgb(xx, xx, xx)
+** Primary Color 2: #hex rgb(xx, xx, xx)
+** Primary Color 3: #hex rgb(xx, xx, xx)
+** Accent Color: #hex rgb(xx, xx, xx)
+
+** Primary 1 Tint: #hex rgb(xx, xx, xx)
+** Color Tint:
+** Color Tint:
+** Color Tint:
+
+** Primary 1 Shade: #hex rgb(xx, xx, xx)
+** Color Shade:
+** Color Shade:
+** Color Shade::
+
+*******************************************************************************/
+
+/*******************************************************************************
+                                Main Styles
+*******************************************************************************/
+/**********************************************************
+                        Global Styles
+**********************************************************/
+/**************************************
+              Browser Resets
+***************************************/
+
+
+/**************************************
+             General Styles
+**************************************/
+
+
+/*Override Bootstrap default margings for row*/
+
+
+/*To provide padding at the top of the page for a sticky header on mobile devices*/
+
+
+/**************************************
+              Typography
+**************************************/
+h1#mainTittle {
+  font-size: 30px;
+}
+
+/**********************************************************
+                        Header Styles
+**********************************************************/
+div#mainTittleWrapper {
+  text-align: center;
+  background-color: #fffff2;
+  width: auto;
+  height: 40px;
+}
+
+hr {
+  display: none;
+  width: 450px;
+  background-color: black;
+  height: 3px;
+  border-radius: 5px;
+  -moz-box-shadow: 0 0 8px black;
+  -webkit-box-shadow: 0 0 8px black;
+  box-shadow: 0 0 8px black;
+}
+
+/**********************************************************
+                      Navigation Styles
+**********************************************************/
+header nav {
+  position: sticky;
+  background-color: #89BCF6;
+  border-top: 5px solid #6699FF;
+  border-bottom: 5px solid #6699FF;
+}
+
+header a.nav-link {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+header li.nav-item {
+  padding-left: 10px;
+}
+header li.nav-item.shop {
+  background-color: #FDC316;
+}
+
+/**********************************************************
+                     Page Content Styles
+**********************************************************/
+main div#logoSection {
+  display: none;
+}
+
+
+div#bodyContentSection {
+  background-color: #fffff2;
+  text-align: center;
+  margin: auto;
+}
+
+p#sectionText{
+  margin-top: 15px;
+  padding: 15px;
+}
+
+
+/**************************************
+           Image Styles
+**************************************/
+img.resize {
+  display: none;
+}
+
+img#linda-footerImg {
+  border-radius: 25px;
+  border: 5px solid black;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img#linda-aboutUsImg {
+  border: 7px solid #e599e5;
+  max-width: 100%;
+  max-height: 100%;
+  -webkit-box-shadow: 0 0 7px #999;
+  -moz-box-shadow: 0 0 7px #999;
+  box-shadow: 0 0 7px #999;
+}
+
+div#imgWrapper {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+div.row.pinkBackground {
+  background-color: #D780FF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+footer img#socialMedia
+{
+  height: 35px;
+  width: 35px;
+  margin-left: 10px;
+}
+
+main div.pictureGrid {
+  position: relative;
+  background-color: #D780FF;
+  padding: 5px;
+  width: 844px;
+  height: 675px;
+}
+
+img#moveImage2 {
+  position: absolute;
+  top: 5px;
+  left: 518px;
+}
+
+img#moveImage9 {
+  position: absolute;
+  top: 410px;
+  left: 5px;
+}
+img#moveImage1 {
+  position: absolute;
+  top: 410px;
+  left: 280px;
+}
+img#moveImage3 {
+  position: absolute;
+  top: 330px;
+  left: 518px;
+}
+
+
+/**************************************
+            List Styles
+**************************************/
+
+
+/**************************************
+            Link Styles
+**************************************/
+
+
+/**************************************
+            Form Styles
+**************************************/
+div#startForm
+{
+  background-color: #f2f2f2;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+div#startForm div#form
+{
+  text-align: center;
+}
+
+div#startForm div#lineToLeft
+{
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+}
+
+form#contactForm input {
+  margin-bottom: 10px;
+  border:2px solid #D780FF;
+}
+
+form#contactForm textarea {
+  margin-bottom: 10px;
+  border:2px solid #D780FF;
+}
+
+form#contactForm div#formSubmit input.btn
+{
+  font-size: 17px;
+  background-color: #fbb306;
+  color: black;
+  border-radius: 20px;
+  text-align: center;
+  width: 150px;
+  height: 40px;
+  margin-top: 12px;
+  border-width: 2px;
+  border-color: black;
+}
+
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(2); /* IE */
+  -moz-transform: scale(2); /* FF */
+  -webkit-transform: scale(2); /* Safari and Chrome */
+  -o-transform: scale(2); /* Opera */
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+div#policyText {
+  margin-top: 5px;
+}
+
+input.btn:hover {
+  background-color: #e1a105;
+}
+
+input.btn:active {
+  background-color: #e1a105;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/**********************************************************
+                        Footer Styles
+**********************************************************/
+div#footerInfoSection {
+    margin: auto;
+    background-color: #89BCF6;
+    border-top: 5px solid #6699FF;
+}
+
+div#footerText {
+  padding: 20px;
+}
+
+button#footerAboutBtn {
+  background-color: #FDC316;
+}
+
+div#socialMediaSection {
+  background-color: #89BCF6;
+  border-top: 5px solid #6699FF;
+  border-bottom: 5px solid #6699FF;
+  text-align: center;
+  padding: 10px;
+}
+
+/*******************************************************************************
+                              Media Queries
+*******************************************************************************/
+/* Mobile: Landscape - Bootstrap sm class */
+@media screen and (min-width: 576px)
+{
+  section#contentContainer
+  {
+    padding: 0 1rem 1rem 1rem;
+  }
+
+}
+
+/* Tablet: Portrait - Bootstrap md class */
+@media screen and (min-width: 768px)
+{
+  /* header start */
+  div#mainTittleWrapper {
+    text-align: center;
+    background-color: #fffff2;
+    width: auto;
+    height: 85px;
+  }
+
+  h1#mainTittle {
+    font-size: 40px;
+  }
+
+  header nav.navbar {
+    padding: 0;
+  }
+
+  hr {
+    display: block;
+  }
+  /* header end */
+
+  /* body start */
+  main div#logoSection {
+    display: flex;
+    background-color: #89BCF6;
+    border-top: 5px solid #6699FF;
+    border-bottom: 5px solid #6699FF;
+    text-align: center;
+    margin: auto;
+    padding: 20px;
+    height: 150px;
+  }
+
+  img.resize {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  img#tallyTaylor_Logo{
+    padding-left: 80px;
+    padding-right: 50px;
+  }
+
+  /* about Us Img of Linda */
+  div#imgWrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  }
+
+  p#sectionText{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  /* body end */
+
+  div#startForm div#lineToLeft
+  {
+    width: 500px;
+  }
+
+
+}
+
+/* Tablet: Landscape - Bootstrap lg class */
+@media screen and (min-width: 992px)
+{
+  main div#logoSection {
+    height: 200px;
+  }
+
+  img#tallyTaylor_Logo{
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+
+
+}
+
+/* Desktop/Laptop: - Bootstrap xl class */
+@media screen and (min-width: 1200px)
+{
+  /*Override fixed navigation width on desktop view*/
+}
